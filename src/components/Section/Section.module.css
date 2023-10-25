@@ -3,6 +3,12 @@
     padding: 1.87rem 2.5rem;
 }
 
+.sectionMain {
+    margin-top: 1.87rem;
+    display: flex;
+    gap: 30px;
+}
+
 .SectionLeft {
     min-width: 717px;
 }

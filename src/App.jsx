@@ -12,7 +12,7 @@ function App() {
 
   const [updateScoreModal, setUpdateScoreModal] = useState(false)
 
-  const [userData, setUserData] = useState({ rank: 12890, percentile: 37, current_score: 7, total_score :15})
+  const [userData, setUserData] = useState({ rank: 12890, percentile: 37, current_score: 7, total_score: 15 })
 
 
 

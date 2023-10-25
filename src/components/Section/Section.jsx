@@ -13,7 +13,7 @@ function Section({ setUpdateScoreModal, userData }) {
 
             <p className={Style.pageTitle}>Skill Test</p>
 
-            <div style={{ marginTop: "1.87rem", display: "flex", gap: "30px" }}>
+            <div className={Style.sectionMain} >
 
                 <div className={Style.SectionLeft}>
 

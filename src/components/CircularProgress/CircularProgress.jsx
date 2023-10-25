@@ -13,7 +13,7 @@ function CircularProgress({ current_score, total_score }) {
     const circularProgressStyle = {
         background: `conic-gradient(#438AF6 ${degree}deg, #438AF61A 0deg)`
     };
-    
+
     useEffect(() => {
         const conicGradientDegree = calculateProgress();
         setDegree(conicGradientDegree);

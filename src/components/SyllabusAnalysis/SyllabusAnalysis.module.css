@@ -46,14 +46,12 @@
 }
 
 .progressBar {
-    /* width: 70%; */
     position: relative;
 }
 
 /* Progress */
 .backGrey {
-    width: 197px;
-    /* width: 80%; */
+    width: 210px;
     height: 10px;
     border-radius: 100px;
     opacity: 0.1;

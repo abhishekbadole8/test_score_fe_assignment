@@ -12,18 +12,15 @@
 
 .Sidebar ul li {
     width: 95%;
+    height: 50px;
     list-style: none;
     display: flex;
     gap: .93rem;
     align-items: center;
-    margin-bottom: 1.62rem;
+    margin-bottom: .5rem;
     border-radius: 0 100px 100px 0;
     padding: 8px 0 8px 40px;
     cursor: pointer;
-}
-
-.Sidebar ul li:active {
-    background: #F7F8FA;
 }
 
 .Sidebar ul li:hover {
@@ -38,6 +35,11 @@
     letter-spacing: -0.32px;
 }
 
+/* active css */
+#SidebarListActive {
+    background: #F7F8FA;
+}
+
 #SidebarListActive h5 {
     color: #445EE2;
     font-size: 1rem;
@@ -45,7 +47,7 @@
     letter-spacing: -0.32px;
 }
 
-#SidebarListActive svg {
-   
-    color: #445EE2;
+#SidebarListActive svg path {
+    stroke: #445EE2;
+    stroke-width: 1.5px;
 }

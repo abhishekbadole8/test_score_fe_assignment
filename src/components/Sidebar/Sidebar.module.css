@@ -1,0 +1,51 @@
+.Sidebar {
+    border-right: 1px solid #EBF0F5;
+    height: 100%;
+    min-width: 250px;
+    max-width: 260px;
+}
+
+.Sidebar ul {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.Sidebar ul li {
+    width: 95%;
+    list-style: none;
+    display: flex;
+    gap: .93rem;
+    align-items: center;
+    margin-bottom: 1.62rem;
+    border-radius: 0 100px 100px 0;
+    padding: 8px 0 8px 40px;
+    cursor: pointer;
+}
+
+.Sidebar ul li:active {
+    background: #F7F8FA;
+}
+
+.Sidebar ul li:hover {
+    width: 100%;
+    background: #F7F8FA;
+}
+
+.Sidebar li h5 {
+    color: #566474;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+}
+
+#SidebarListActive h5 {
+    color: #445EE2;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+#SidebarListActive svg {
+   
+    color: #445EE2;
+}

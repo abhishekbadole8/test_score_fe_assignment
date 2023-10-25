@@ -1,0 +1,139 @@
+.Section {
+    width: 100%;
+    padding: 1.87rem 2.5rem;
+}
+
+.SectionLeft {
+    min-width: 717px;
+}
+
+.pageTitle {
+    color: #566474;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+/* html container */
+.skillLanguageContainer {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 1.87rem;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+    margin-bottom: 1.87rem;
+    /* margin bottom */
+}
+
+.skillLanguageLeft {
+    display: flex;
+    align-items: center;
+    gap: 20.4px;
+}
+
+.skillLanguageIcon {
+    width: 2rem;
+    height: 50px;
+}
+
+.skillLanguageContainerContext h6 {
+    color: #222F3E;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    margin-bottom: 5px;
+}
+
+.skillLanguageContainerContext p {
+    color: #566474;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.skillLanguageContainer button {
+    cursor: pointer;
+    width: 120px;
+    height: 44px;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.28px;
+    border-radius: 5px;
+    background: #142683;
+    margin: 3px 0;
+}
+
+/* quick statisctics */
+
+.quickStatistics {
+    padding: 1.87rem;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+}
+
+.quickStatistics h6 {
+    color: #1E272E;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+.quickStatistics ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.quickStatistics li {
+    display: flex;
+    gap: 20px;
+    border-right: 1px solid #EBF0F5;
+    padding-right: 50px;
+}
+
+.quickStatistics li:nth-child(2) {
+    padding-left: 50px;
+}
+
+.quickStatistics li:nth-child(3) {
+    border-right: none;
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.textIconTag {
+    width: 50px;
+    height: 50px;
+    background-color: #F7F8FA;
+    border-radius: 50%;
+    border: 1px solid #EBF0F5;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.quickStatistics li h5 {
+    color: #1E272E;
+    font-size: 1.37rem;
+    font-weight: 700;
+    letter-spacing: -0.44px;
+    margin-bottom: 5px;
+}
+
+.quickStatistics li div p {
+    color: #9EAAB7;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+
+/* right */
+
+.SectionRight {}

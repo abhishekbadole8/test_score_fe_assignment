@@ -1,0 +1,67 @@
+.SyllabusAnalysis {
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #EBF0F5;
+}
+
+.SyllabusAnalysis h6 {
+    color: #1E272E;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    margin-bottom: 1.25rem;
+}
+
+.SyllabusAnalysis ul {
+    list-style: none;
+}
+
+.SyllabusAnalysis li {
+    color: #566474;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    margin-bottom: 2rem;
+}
+
+.SyllabusAnalysis li:last-child {
+    margin-bottom: 0;
+}
+
+.SyllabusAnalysis li p {
+    margin-bottom: 5px;
+}
+
+/* Progress bar */
+.progressBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progressBarContainer h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+.progressBar {
+    /* width: 70%; */
+    position: relative;
+}
+
+/* Progress */
+.backGrey {
+    width: 197px;
+    /* width: 80%; */
+    height: 10px;
+    border-radius: 100px;
+    opacity: 0.1;
+}
+
+.steps {
+    top: 0;
+    position: absolute;
+    border-radius: 100px;
+    height: 100%;
+}

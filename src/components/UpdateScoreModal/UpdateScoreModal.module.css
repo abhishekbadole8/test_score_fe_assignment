@@ -1,0 +1,147 @@
+.UpdateScoreModal {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(30, 39, 46, 0.70);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.updateScoreBox {
+    width: 880px;
+    height: 521px;
+    border-radius: 10px;
+    background: #FFF;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 38px;
+}
+
+.updateScoreBoxTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.updateScoreBoxTop h2 {
+    color: #222F3E;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+}
+
+.updateScoreBoxTop img {
+    width: 35.556px;
+    height: 47.45px;
+}
+
+/* input box */
+.updateScoreInputBox {
+    padding: 27.94px 0 32.98px 0;
+    border-top: 2px solid #EBF0F5;
+    border-bottom: 2px solid #EBF0F5;
+    margin: 45.5px 0 37.96px 0;
+}
+
+.updateScoreInputBox ul {
+    list-style: none;
+}
+
+.updateScoreInputBox ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.37rem;
+}
+
+.updateScoreInputBox ul li:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.updateScoreSerialNum {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #142683;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.updateScoreContent {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.updateScoreContent p {
+    color: #566474;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+}
+
+.updateScoreContent p span {
+    font-weight: 700;
+}
+
+.updateScoreInput {
+    max-width: 157px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #142683;
+    padding: .5rem 1rem;
+    color: #142683;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+/* buttons */
+.updateScoreBoxButtons {
+    margin-left: auto;
+    display: flex;
+    gap: 39px;
+    justify-content: flex-end;
+    padding-right: 44px;
+}
+
+.updateScoreBoxButtons button {
+    min-width: 85px;
+    min-height: 44px;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #142683;
+    color: #142683;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+.updateScoreBoxButtons button:hover {
+    background: #142683;
+    color: #fff;
+}
+
+.activeButton {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeButton svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.updateScoreBoxButtons .activeButton {
+    background: #142683;
+    color: #fff;
+}

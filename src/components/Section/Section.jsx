@@ -62,7 +62,7 @@ function Section({ setUpdateScoreModal, userData }) {
 
                     </div>
 
-                    <ComparisonGraph />
+                    <ComparisonGraph percentile={percentile} />
 
                 </div>
 

@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1.87rem;
 }
 
 .ComparisonGraphTopLeft h6 {
@@ -44,4 +45,19 @@
     align-items: center;
     justify-content: center;
     font-size: 1.25rem;
+}
+
+
+
+/* ------------- */
+.graphContainer {
+    border-radius: 10px;
+    border: 1px solid  #F7F8FA;
+}
+
+.xAxis {
+    color: #9EAAB7;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: -0.24px;
 }

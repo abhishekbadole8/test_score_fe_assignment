@@ -1,0 +1,1 @@
+Deployment link : https://cuvette-fe-assignment.vercel.app/
